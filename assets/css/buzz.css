@@ -1,0 +1,355 @@
+body { 
+  font-family: "proxima-nova",sans-serif; 
+  line-height: 1.3em;
+}
+
+ul { 
+  padding-left: 0;
+  -webkit-padding-start: 0; 
+}
+
+button:active,
+button:focus,
+textarea:focus, 
+input:focus { outline: 0; }
+
+.page-head { padding: 20px 0; }
+
+.logo {
+  background: url('http://s3-ak.buzzfed.com/static/images/global/unified_sprite.png?v=201505201406');
+  background-position: 0px -830px;
+  background-repeat: no-repeat;
+  display: block;
+  height: 50px;
+  margin: 0;
+  text-indent: -9999em;
+  width: 287px;
+}
+
+.btn { border-radius: 0; }
+
+.btn-large {
+	font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.btn-blue {
+  color: #fff;
+  background: #07e;
+  border: none;
+}
+
+.btn-grey {
+	color: #fff;
+	background: #aaa;
+	border: 1px solid #ccc;
+}
+
+.btn-more { 
+  border: 1px solid #333;
+  background: #fff;
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  font-size: 16px;
+  width: 100%;
+}
+
+.btn-blue:hover { 
+	background: #005dbb;
+	color: #fff; 
+}
+
+.btn-grey:hover { 
+	background: #6f6f6f;
+	color: #fff; 
+}
+
+.btn-more[disabled],
+.btn-more:hover{
+	background-color: #e32;
+  border-color: #e32;
+  color: #fff;
+}
+
+label {
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.contributions-head ul {
+  font: bold 18px/1.3 helvetica, arial, sans-serif;
+  height: 38px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.contributions-head a {
+  height: 38px;
+}
+
+#contributions-list {
+  list-style: none;
+  padding-top: 10px;
+}
+
+.contrib-container {
+  background: #e7e7e7;
+  margin-bottom: 1px;
+  padding: 10px;
+}
+
+.sub-contribution-list { 
+  background: #fff;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.sub-contrib-container {
+  margin-left: 30px;
+  padding: 10px;
+}
+
+.sub-comments { background: #f5f5f5; }
+
+.form-group { margin-bottom: 25px; }
+.form-group-footer { margin-bottom: 15px; }
+
+.user-row { 
+  margin-bottom: 18px; 
+  line-height: 12px;
+}
+
+.user-row .col-md-1 {
+  width: 30px;
+}
+
+.user-row .user {
+  color: #07e;
+  font-size: 13px;
+}
+
+.user-row time {
+  color: #888;
+  display: block;
+  font-size: 9px;
+  line-height: 16px;
+}
+
+.text-row {
+  font-size: 16px;
+}
+
+.row-tools { position: relative; }
+.tools > li { color: #bbb; }
+.tools > li > a { color: #bbb; }
+
+.tools:hover > li,
+.tools:hover > li> a { color: #999; }
+
+.tools {
+  display: block;
+  height: 18px;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 2.5;
+  list-style: none;
+  margin-top: 5px;
+}
+
+.tools li {
+	cursor: pointer;
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.row-tools .icon {
+  background: url('http://s3-ak.buzzfed.com/static/images/public/icons/new-comment-sprite.png?v=201505201406');
+  display: block;
+  height: 12px;
+  width: 15px;
+}
+
+.tools li span {
+  display: block;
+  float: left;
+  line-height: 13px;
+}
+
+.tools .comments .icon { margin-right: 5px; }
+
+.tools .love {
+  background-position: -15px 0;
+  margin-left: 3px;
+  margin-right: 1px;
+}
+
+.tools .hate {
+  background-position: -30px 0;
+  margin-left: 3px;
+  margin-right: 1px;
+}
+
+.tools .count {
+  width: 15px;
+}
+
+.tools .share .share-icon {
+  background-position: -60px 0px;
+  margin-right: 5px;
+}
+
+.tools .share .share-arrow {
+  background-position: -75px 0px;
+  float: right;
+  margin-left: 5px; 
+  width: 8px;
+}
+
+.flag {
+  bottom: 2px;
+  right: 15px;
+  position: absolute;
+}
+
+.flag .icon { background-position: -45px 0; }
+
+.row-tools:hover .comments .icon { background-position: 0 -15px; }
+.row-tools:hover .love { background-position: -15px -15px; }
+.row-tools:hover .love { background-position: -15px -15px; }
+.row-tools:hover .hate { background-position: -30px -15px; }
+.row-tools:hover .share .share-icon { background-position: -60px -15px; }
+.row-tools:hover .share .share-arrow { background-position: -75px -15px; }
+.row-tools:hover .flag .icon { background-position: -45px -15px; }
+
+.share { position: relative; }
+
+.share.open .social-dropdown {
+	display: block;
+}
+
+.social-dropdown { padding: 15px 15px 5px; }
+
+.social-dropdown > li > a {
+	color: #111;
+	padding: 0 0 10px 0;
+}
+
+.social-dropdown li {
+	display: block;
+  font-size: 17px;
+  line-height: 27px;
+}
+
+.social-dropdown li a:hover { background: #fff; }
+
+
+.social-dropdown .icon { 
+	background: url('http://s3-ak.buzzfed.com/static/images/public/icons/large-share-sprite24x24.png?v=201505211312'); 
+  height: 24px;
+  margin-right: 7px;
+  width: 24px;
+}
+
+.social-dropdown .facebook .icon { background-position: 0px -24px; }
+.social-dropdown .twitter .icon { background-position: 0px -48px; }
+.social-dropdown .email .icon { background-position: 0px -144px; }
+.social-dropdown .getlink .icon { background-position: 0px -72px; }
+
+.getlink { position: relative; }
+
+.share-this-link {
+  background: #eee;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  color: #111;
+  font-size: 14px;
+  left: -15px;
+  line-height: 23px;
+  padding: 1px 5px 5px;
+  position: absolute;
+  top: 46px;
+  width: 350px;
+}
+
+.share-this-link input {
+	border: 1px solid #cecece;
+  font-size: 13px;
+  font-weight: normal;
+  width: 100%;
+}
+
+#respondTabs ul {
+	list-style: none;
+	margin-left: 15px;
+}
+
+#respondTabs a {
+	color: #555;
+}
+
+#respondTabs a:hover {
+	text-decoration: none;
+}
+
+#respondTabs li.active a {
+	color: #111;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#respondTabs li {
+	background: #e7e7e7;
+	border-top: 1px solid #e7e7e7;
+	font-size: 13px;
+	display: inline-block;
+  margin-right: 15px;
+  padding: 4px 10px 5px;
+	position: relative;
+}
+
+#respondTabs li.active {
+	border-color: #555;
+}
+
+#respondTabs .tab-content {
+	background: #e7e7e7;
+	color: #111;
+	font-size: 16px;
+  line-height: 18px;
+	padding: 10px;
+}
+
+#respondTabs .tab-content textarea {
+	border: 1px solid #ccc;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 25px;
+  padding: 15px;
+	width: 100%;
+}
+
+#respondTabs .tab-content input[type="text"] {
+	border: 1px solid #ccc;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 15px;
+	width: 100%;
+}
+
+#respondTabs .tab-content textarea:focus {
+	outline: 1px solid #111;
+}
+
+#respondTabs .tab-content p, 
+#respondTabs .tab-content span { 
+	color: #999;	
+	font-weight: normal;
+}
+
